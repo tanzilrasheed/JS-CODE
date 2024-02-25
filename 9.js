@@ -4,6 +4,12 @@ if  (N >= 2) {
     let a = input.questionInt('enter a no.; ');
     var n = 3, max = a;
     var smax = input.questionInt('enter a number: ');
+    if (max < smax)
+    {
+        var t = max;
+        max = smax;
+        smax = t;
+    }
 }
 else {
     console.log('please enter atleast two numbers ')

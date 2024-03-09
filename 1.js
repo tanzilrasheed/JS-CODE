@@ -1,5 +1,9 @@
+//without using function
+
 const input = require("readline-sync");
-let a = input.questionInt("enter a number"), b = input.questionInt('enter a number'), c = input.questionInt('enter a number');
+let a = input.questionInt("enter a number"), 
+b = input.questionInt('enter a number'), 
+c = input.questionInt('enter a number');
 if (a>b) {
   var m = a;
 }
@@ -12,3 +16,12 @@ if (m>c) {
 else {
   console.log(c);
 }
+
+// with function
+
+
+//const input = require("readline-sync");
+//let max = Math.max(input.questionInt("enter a number"),
+//input.questionInt("enter a number"),
+//input.questionInt("enter a number"));
+//console.log(max);

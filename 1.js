@@ -1,3 +1,4 @@
+//max in 3 numbers
 //without using function
 
 const input = require("readline-sync");
